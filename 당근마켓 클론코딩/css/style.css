@@ -11,7 +11,7 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -20,11 +20,18 @@ body {
   justify-content: center;
   align-items: center;
   background-color: salmon;
-  opacity: 1;
 }
 
 @media screen and (max-width: 480px) {
   .media-info-msg {
-    opacity: 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    display: none;
+=======
+   display: none;
+>>>>>>> baf764a2cf1a31b99d2cab72123b98da5cb1c606
+=======
+   display: none;
+>>>>>>> baf764a2cf1a31b99d2cab72123b98da5cb1c606
   }
 }
